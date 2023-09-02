@@ -131,12 +131,7 @@ rm tools.sh
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
-read -rp "Input ur domain : " -e pp
-    if [ -z $pp ]; then
-        echo -e "
-        Nothing input for domain!
-        Then a random domain will be created"
-    else
+    read -rp "Input Domain Mu : " -e pp 
         echo "$pp" > /root/scdomain
 	echo "$pp" > /etc/xray/scdomain
 	echo "$pp" > /etc/xray/domain
@@ -201,6 +196,16 @@ gg="PM"
 else
 gg="AM"
 fi
+clear
+    echo ""
+    echo ""
+    echo -e "$green███████╗██╗░░░██╗  ░██████╗████████╗░█████╗░██████╗░███████╗$NC"
+    echo -e "$green██╔════╝██║░░░██║  ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝$NC"
+    echo -e "$green█████╗░░╚██╗░██╔╝  ╚█████╗░░░░██║░░░██║░░██║██████╔╝█████╗░░$NC"
+    echo -e "$green██╔══╝░░░╚████╔╝░  ░╚═══██╗░░░██║░░░██║░░██║██╔══██╗██╔══╝░░$NC"
+    echo -e "$green██║░░░░░░░╚██╔╝░░  ██████╔╝░░░██║░░░╚█████╔╝██║░░██║███████╗$NC"
+    echo -e "$green╚═╝░░░░░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝$NC"
+sleep 2
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
 echo "=====================-[ Sc By FV STORE ]-===================="
@@ -242,8 +247,6 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
-echo ""
-echo "===============-[ Sc By FV STORE ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
@@ -253,5 +256,6 @@ rm /root/insshws.sh >/dev/null 2>&1
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 echo -e "
 "
-read -n 1 -s -r -p "Klik Enter Untuk Reboot"
-reboot
+echo "===============-[ Install UDP & Reboot ]-==============="
+sleep 2
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2" -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp
