@@ -129,7 +129,7 @@ echo ""
 wget -q https://raw.githubusercontent.com/Anggajrxxx/v1/main/tools.sh && chmod +x tools.sh && ./tools.sh
 rm tools.sh
 clear
-yellow "Masukan Domain mu"
+yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
 read -rp "Input ur domain : " -e pp
     if [ -z $pp ]; then
@@ -144,7 +144,7 @@ read -rp "Input ur domain : " -e pp
 	echo $pp > /root/domain
         echo "IP=$pp" > /var/lib/SIJA/ipvps.conf
     fi
-    
+
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
