@@ -64,21 +64,21 @@ wget -O bw "https://raw.githubusercontent.com/Anggajrxxx/v1/main/menu/bw.sh" && 
 clear
 
 # Vmess
-wget -O add-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-ws.sh" && chmod +x add-ws
+wget -O add-ws "https://raw.githubusercontent.com/Anggajrxxx/v1/main/xray/add-ws.sh" && chmod +x add-ws
 wget -O trialvmess "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialvmess.sh" && chmod +x trialvmess
 wget -O renew-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-ws.sh" && chmod +x renew-ws
 wget -O del-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-ws.sh" && chmod +x del-ws
 wget -O cek-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/cek-ws.sh" && chmod +x cek-ws
 
 # Vless
-wget -O add-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-vless.sh" && chmod +x add-vless
+wget -O add-vless "https://raw.githubusercontent.com/Anggajrxxx/v1/main/xray/add-vless.sh" && chmod +x add-vless
 wget -O trialvless "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialvless.sh" && chmod +x trialvless
 wget -O renew-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-vless.sh" && chmod +x renew-vless
 wget -O del-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-vless.sh" && chmod +x del-vless
 wget -O cek-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/cek-vless.sh" && chmod +x cek-vless
 
 # Trojan
-wget -O add-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-tr.sh" && chmod +x add-tr
+wget -O add-tr "https://raw.githubusercontent.com/Anggajrxxx/v1/main/xray/add-tr.sh" && chmod +x add-tr
 wget -O trialtrojan "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialtrojan.sh" && chmod +x trialtrojan
 wget -O del-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-tr.sh" && chmod +x del-tr
 wget -O renew-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-tr.sh" && chmod +x renew-tr
