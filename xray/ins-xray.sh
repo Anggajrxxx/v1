@@ -620,35 +620,6 @@ systemctl start trojan-go
 systemctl enable trojan-go
 systemctl restart trojan-go
 
-cd /usr/bin/
-# Vmess
-wget -O add-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-ws.sh" && chmod +x add-ws
-wget -O trialvmess "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialvmess.sh" && chmod +x trialvmess
-wget -O renew-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-ws.sh" && chmod +x renew-ws
-wget -O del-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/zheevpn/a/main/xray/cek-ws.sh" && chmod +x cek-ws
-
-# Vless
-wget -O add-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-vless.sh" && chmod +x add-vless
-wget -O trialvless "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialvless.sh" && chmod +x trialvless
-wget -O renew-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-vless.sh" && chmod +x renew-vless
-wget -O del-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-vless.sh" && chmod +x del-vless
-wget -O cek-vless "https://raw.githubusercontent.com/zheevpn/a/main/xray/cek-vless.sh" && chmod +x cek-vless
-
-# Trojan
-wget -O add-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/add-tr.sh" && chmod +x add-tr
-wget -O trialtrojan "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialtrojan.sh" && chmod +x trialtrojan
-wget -O del-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/del-tr.sh" && chmod +x del-tr
-wget -O renew-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/renew-tr.sh" && chmod +x renew-tr
-wget -O cek-tr "https://raw.githubusercontent.com/zheevpn/a/main/xray/cek-tr.sh" && chmod +x cek-tr
-
-# Trojan Go
-wget -O addtrgo "https://raw.githubusercontent.com/zheevpn/a/main/xray/addtrgo.sh" && chmod +x addtrgo
-wget -O trialtrojango "https://raw.githubusercontent.com/zheevpn/a/main/xray/trialtrojango.sh" && chmod +x trialtrojango
-wget -O deltrgo "https://raw.githubusercontent.com/zheevpn/a/main/xray/deltrgo.sh" && chmod +x deltrgo
-wget -O renewtrgo "https://raw.githubusercontent.com/zheevpn/a/main/xray/renewtrgo.sh" && chmod +x renewtrgo
-wget -O cektrgo "https://raw.githubusercontent.com/zheevpn/a/main/xray/cektrgo.sh" && chmod +x cektrgo
-
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
